@@ -1,13 +1,13 @@
-package com.lucky.buylotteryback;
+package com.luckey.bicolorsphere;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BuylotteryBackApplication {
+public class BicolorSphereApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BuylotteryBackApplication.class, args);
+        SpringApplication.run(BicolorSphereApplication.class, args);
     }
 
 }

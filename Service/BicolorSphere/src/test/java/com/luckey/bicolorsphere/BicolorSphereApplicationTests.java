@@ -1,10 +1,10 @@
-package com.lucky.buylotteryback;
+package com.luckey.bicolorsphere;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BuylotteryBackApplicationTests {
+class BicolorSphereApplicationTests {
 
     @Test
     void contextLoads() {
