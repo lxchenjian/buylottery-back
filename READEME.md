@@ -72,3 +72,27 @@
 六等奖：单注奖金额固定为10元；
 七等奖：单注奖金额固定为5元。
 七乐彩单注奖金的最高限额为500万元。
+
+
+# 爬虫的项目jar包
+commons-codec-1.9.jar
+commons-logging-1.2.jar
+filterbuilder.jar
+fluent-hc-4.5.jar
+fontbox-2.0.7.jar
+htmllexer.jar
+htmlparser.jar
+httpclient-4.5.jar
+httpclient-cache-4.5.jar
+httpclient-win-4.5.jar
+httpcore-4.4.1.jar
+httpmime-4.5.jar
+jna-4.1.0.jar
+jna-platform-4.1.0.jar
+jsoup-1.7.2.jar
+junit.jar
+pdfbox-app-2.0.7.jar
+preflight-app-2.0.7.jar
+sax2.jar
+thumbelina.jar
+xmpbox-2.0.7.jar

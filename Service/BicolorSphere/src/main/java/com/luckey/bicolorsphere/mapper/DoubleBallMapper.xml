@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luckey.bicolorsphere.mapper.DoubleBallMapper">
+
+    <insert id="addDoubleBalls" parameterType="com.luckey.commonutil.DO.Doubleball">
+        INSERT INTO `doubleball`(`time`, `red_ball_one`, `red_ball_two`, `red_ball_three`, `red_ball_four`, `red_ball_five`, `blue_ball_one`)
+        VALUES (#{doubleball.accDate},#{doubleball.redBallOne}, #{doubleball.redBallTwo}, #{doubleball.redBallThree}, #{doubleball.redBallFour}, #{doubleball.redBallFive}, #{doubleball.blueBallOne});
+    </insert>
+
+</mapper>
