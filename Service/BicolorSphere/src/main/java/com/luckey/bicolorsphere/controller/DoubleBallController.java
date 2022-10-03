@@ -33,7 +33,7 @@ public class DoubleBallController {
 
     @GetMapping("/addDoubleBall")
     public String addDoubleBall() throws IOException {
-        List<Doubleball> list= JsoupUtils.getNewYearHistory("2021");
+        List<Doubleball> list= JsoupUtils.getNewYearHistory("2022");
         doubleBallService.addDoubleBalls(list);
         return "";
     }

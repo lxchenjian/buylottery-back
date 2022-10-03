@@ -5,8 +5,8 @@
 <mapper namespace="com.luckey.bicolorsphere.mapper.DoubleBallMapper">
 
     <insert id="addDoubleBalls" parameterType="com.luckey.commonutil.DO.Doubleball">
-        INSERT INTO `doubleball`(`time`, `red_ball_one`, `red_ball_two`, `red_ball_three`, `red_ball_four`, `red_ball_five`, `blue_ball_one`)
-        VALUES (#{doubleball.accDate},#{doubleball.redBallOne}, #{doubleball.redBallTwo}, #{doubleball.redBallThree}, #{doubleball.redBallFour}, #{doubleball.redBallFive}, #{doubleball.blueBallOne});
+        INSERT INTO `doubleball`(`time`, `red_ball_one`, `red_ball_two`, `red_ball_three`, `red_ball_four`, `red_ball_five`, `red_ball_six`,`blue_ball_one`)
+        VALUES (#{doubleball.accDate},#{doubleball.redBallOne}, #{doubleball.redBallTwo}, #{doubleball.redBallThree}, #{doubleball.redBallFour}, #{doubleball.redBallFive},#{doubleball.redBallSix}, #{doubleball.blueBallOne});
     </insert>
 
 </mapper>

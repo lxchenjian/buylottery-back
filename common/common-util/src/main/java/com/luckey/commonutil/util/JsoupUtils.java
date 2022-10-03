@@ -56,6 +56,7 @@ public class JsoupUtils {
             doubleball.setRedBallThree(red[2]);
             doubleball.setRedBallFour(red[3]);
             doubleball.setRedBallFive(red[4]);
+            doubleball.setRedBallSix(red[5]);
             doubleball.setBlueBallOne(blue[0]);
             list.add(doubleball);
             i++;

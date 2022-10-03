@@ -54,8 +54,16 @@ public class Doubleball {
     /**
      * 蓝1
      */
+    @TableField("red_ball_six")
+    private String redBallSix;
+
+    /**
+     * 蓝1
+     */
     @TableField("blue_ball_one")
     private String blueBallOne;
+
+
 
     public String getAccDate() {
         return accDate;
@@ -113,6 +121,14 @@ public class Doubleball {
         this.blueBallOne = blueBallOne;
     }
 
+    public String getRedBallSix() {
+        return redBallSix;
+    }
+
+    public void setRedBallSix(String redBallSix) {
+        this.redBallSix = redBallSix;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -126,6 +142,7 @@ public class Doubleball {
         if (redBallThree != null ? !redBallThree.equals(that.redBallThree) : that.redBallThree != null) return false;
         if (redBallFour != null ? !redBallFour.equals(that.redBallFour) : that.redBallFour != null) return false;
         if (redBallFive != null ? !redBallFive.equals(that.redBallFive) : that.redBallFive != null) return false;
+        if (redBallSix != null ? !redBallSix.equals(that.redBallSix) : that.redBallSix != null) return false;
         return blueBallOne != null ? blueBallOne.equals(that.blueBallOne) : that.blueBallOne == null;
     }
 
@@ -137,6 +154,7 @@ public class Doubleball {
         result = 31 * result + (redBallThree != null ? redBallThree.hashCode() : 0);
         result = 31 * result + (redBallFour != null ? redBallFour.hashCode() : 0);
         result = 31 * result + (redBallFive != null ? redBallFive.hashCode() : 0);
+        result = 31 * result + (redBallSix != null ? redBallSix.hashCode() : 0);
         result = 31 * result + (blueBallOne != null ? blueBallOne.hashCode() : 0);
         return result;
     }
@@ -150,6 +168,7 @@ public class Doubleball {
                 ", redBallThree='" + redBallThree + '\'' +
                 ", redBallFour='" + redBallFour + '\'' +
                 ", redBallFive='" + redBallFive + '\'' +
+                ", redBallSix='" + redBallSix + '\'' +
                 ", blueBallOne='" + blueBallOne + '\'' +
                 '}';
     }
