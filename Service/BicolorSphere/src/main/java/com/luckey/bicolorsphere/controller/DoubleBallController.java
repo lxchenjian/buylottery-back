@@ -37,4 +37,24 @@ public class DoubleBallController {
         doubleBallService.addDoubleBalls(list);
         return "";
     }
+
+    //选号逻辑一：排除法
+    //通过一些极限值做判断下次的几率
+
+
+    /***
+     * 排除法的基础数据 *
+     * @return
+     * @throws IOException
+     */
+    @GetMapping("/getAnalyzeByIntervals")
+    public String getAnalyzeByIntervals() throws IOException {
+        // TODO 排除法的实现
+        // 最近是否连续同一个号码 和 最大连号和最小连号对比。
+
+
+        // 最近是否都没出现过
+        return "";
+    }
+
 }
